@@ -1,0 +1,19 @@
+img.sub2
+{
+	position: absolute;
+	cursor: pointer;
+}
+
+img.sub2hidden
+{
+	position: absolute;
+	visibility: hidden;
+	cursor: pointer;
+}
+
+#sub2
+{
+	position: absolute;
+	top: 150px;
+	z-index: 2;
+}

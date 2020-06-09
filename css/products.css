@@ -1,0 +1,132 @@
+div.addtocart
+{
+	text-align: right;
+	position: relative;
+}
+
+div.dimensions
+{
+	position: relative;
+	top: -3px;
+	font-style: italic;
+	font-size: 14px;
+}
+
+div.image
+{
+	width: 170px;
+	border: none;
+}
+
+div.onsale
+{
+	background-color: red;
+	width: 176px;
+	text-align: center;
+	font-family: verdana;
+	position: absolute;
+	color: white;
+}
+
+div.price
+{
+	text-align: right;
+	position: relative;
+	left: -50px;
+	top: -3px;
+	font-size: 14px;
+	font-family: arial;
+}
+
+font.onsale
+{
+	position: relative;
+	top: -3px;
+}
+
+hr
+{
+	position: relative;
+	top: -16px;
+	border: none;
+	border-bottom: dotted gray 1px;
+}
+
+img.product
+{
+	cursor: pointer;
+}
+
+div.display
+{
+	position: absolute;
+	top: 270px;
+	left: 75px;
+	z-index: 0;
+}
+
+table.display
+{
+	border-spacing: 5px;
+	text-align: center;	
+}
+
+table.size_color
+{
+	position: relative;
+	top: -22px;
+	border-collapse: collapse;
+}
+    table.size_color td
+    {
+	height: 22px;
+	font-size: 14px;
+	border-collapse: collapse;
+    }
+
+td.image
+{
+	height: 208px;
+	text-align: center;
+	vertical-align: middle;
+	border-bottom: dotted gray 1px;
+}
+
+td.product
+{
+	border-top: solid black 1px;
+	border-bottom: solid black 1px;
+	background-color: #725b50;
+	color: lightgray;
+	width: 170px;
+	text-align: center;
+	vertical-align: top;
+}
+
+#display_cart
+{
+	position: absolute;
+	top: 180px;
+	width: 560px;
+	padding-left: 180px;
+	text-align: right;
+}
+    #display_cart table
+    {
+	background-color: lightgray;
+	border: solid black 1px;
+    }
+
+#empty_cart
+{
+	position: relative;
+	top: 300px;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: lightgray;
+	border: solid black 1px;
+	text-align: center;
+	font-family: arial;
+	font-size: 15;
+}

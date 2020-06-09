@@ -1,0 +1,68 @@
+div.imgsub
+{
+	position: absolute;
+	visibility: hidden;
+	z-index: 2;
+}
+
+div.submenu
+{
+	position: absolute;
+	visibility: hidden;
+	top: 115px;
+	z-index: 5;
+}
+    div.submenu table
+    {
+//	background-color: lightgray;
+//	border: groove gray 2px;
+	color: #3a221a;
+	left: 10px;
+	border-spacing: 8px;
+	font-family: tahoma;
+    }
+    div.submenu td
+    {
+	cursor: pointer;
+    }
+    div.submenu td:hover
+    {
+	background-color: #3a221a;
+	color: #d3faff;
+    }
+
+img.ilight
+{
+	position: absolute;
+	visibility: hidden;
+	cursor: pointer;
+	z-index: 3;
+}
+
+img.iregular
+{
+	cursor: pointer;
+	z-index: 2;
+}
+
+#buttons
+{
+	position: absolute;
+	padding-left: 50px;
+}
+    #buttons img
+    {
+	position: absolute;
+	top: 86px;
+    }
+
+#cart_info
+{
+	position: relative;
+	top: 87px;
+	left: 50px;
+	font-size: 10px;
+	font-family: arial;
+	color: #d3faff;
+	width: 70px;
+}

@@ -1,0 +1,33 @@
+body
+{
+	background-color: #d7c8bd;
+}
+
+#bg
+{
+	z-index: -1;
+	position: relative;
+	border-collapse: collapse;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#bgimg
+{
+	position: absolute;
+	top: -8px;
+}
+
+#copyright
+{
+	text-align: center;
+	border: solid black 1px;
+	position: relative;
+	top: 20px;
+	background-color: #725b50;
+	color: lightgray;
+	font-size: 15px;
+	width: 738px;
+	z-index: 1;
+}
